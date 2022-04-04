@@ -1,10 +1,4 @@
-header {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.container {
+.header__container {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -13,7 +7,12 @@ header {
     width: 1136px;
 }
 
-.search_area {
+.header__logo {
+    align-items: center;
+    display: flex;
+}
+
+.header__search {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -22,16 +21,7 @@ header {
     width: 600px;
 }
 
-.logo__area {
-    align-items: center;
-    display: flex;
-}
-
-.button__area {
-    display: flex;
-}
-
-.search__input input{
+.header__search input{
     background-color: #f5f5f5;
     border: none;
     border-radius: 20px;
@@ -39,7 +29,7 @@ header {
     width: 390px;
 }
 
-.button__area {
+.header__button {
     align-items: center;
     background-color: #f5f5f5;
     border-radius: 7px;
@@ -50,3 +40,4 @@ header {
     line-height: 1.2rem;
     width: 182px;
 }
+
