@@ -33,7 +33,7 @@
 }
 
 .hero__button {
-    background-color: #2A7AE4;
+    /* background-color: #2A7AE4; */
     border: none;
     color: white;
     font-size: 16px;
@@ -43,4 +43,12 @@
     margin: 16px 0 0;
     text-align: center;
     width: 130px;
+}
+
+/* é feito de vidro */
+
+.hero__button {
+    background: rgba(225, 255, 255, .1);
+    backdrop-filter: blur (10px);
+    /* -webkit-backdrop-filter: blur(10px); */
 }
