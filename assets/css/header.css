@@ -31,9 +31,9 @@
 
 .header__button {
     align-items: center;
-    background: rgba(225, 255, 255, .1);
-    backdrop-filter: blur (10px);
+    background-color: #2A7AE4;
     border-radius: 7px;
+    color: #f5f5f5;
     display: flex;
     font-size: 1rem;
     height: 51px;

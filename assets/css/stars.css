@@ -4,6 +4,7 @@
     flex-direction: column;
     height: 306px;
     justify-content: space-between;
+    margin: 4rem 0 0;
 }
 
 .item__content {

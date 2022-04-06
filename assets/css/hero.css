@@ -1,6 +1,6 @@
 .hero__container {
     align-items: center;
-    background: url(../image/Hero.jpg) center / cover no-repeat ;
+    background: url(../image/hero.jpg) center / cover no-repeat ;
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
 }
 
 .hero__button {
-    /* background-color: #2A7AE4; */
+    background-color: #2A7AE4;
     border: none;
     color: white;
     font-size: 16px;
@@ -45,10 +45,3 @@
     width: 130px;
 }
 
-/* é feito de vidro */
-
-.hero__button {
-    background: rgba(225, 255, 255, .1);
-    backdrop-filter: blur (10px);
-    /* -webkit-backdrop-filter: blur(10px); */
-}
