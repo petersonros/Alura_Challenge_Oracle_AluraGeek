@@ -1,0 +1,39 @@
+.footer__container {
+    align-items: center;
+    background: #EAF2FD ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer__content {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 240px;
+    justify-content: center;
+    margin: 64px 0 0;
+    width: 1136px;
+}
+
+.footer__logo {
+
+    height: 50px;
+
+    width: 176px;
+}
+
+.footer__text {
+    align-items: center;
+    background: #ffffff;
+    height: 38px;
+    padding: 2rem 0 2rem;
+    width: 100%;
+}
+
+.footer__text p{
+
+    font-size: 1rem;
+    line-height: 1.125rem;
+    text-align: center;
+}
