@@ -1,8 +1,10 @@
+@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css');
+
 .footer__container {
     align-items: center;
-    background: #EAF2FD ;
     display: flex;
     flex-direction: column;
+    height: 500px;
     width: 100%;
 }
 
@@ -10,30 +12,31 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    height: 240px;
     justify-content: center;
-    margin: 64px 0 0;
-    width: 1136px;
 }
 
-.footer__logo {
-
-    height: 50px;
-
-    width: 176px;
-}
-
-.footer__text {
-    align-items: center;
-    background: #ffffff;
-    height: 38px;
-    padding: 2rem 0 2rem;
-    width: 100%;
-}
-
-.footer__text p{
-
+.footer__name {
+    color: var(--title-text);
     font-size: 1rem;
-    line-height: 1.125rem;
+    line-height: 1.5rem;
     text-align: center;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__social a {
+    color: var(--title-text);
+    text-decoration: none;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    padding: .5rem .5rem .75rem;
+}
+
+.footer__social a:hover {
+    color: var(--title-text);
+    transform: scale(1.1);
 }
