@@ -2,6 +2,7 @@
 
 .footer__container {
     align-items: center;
+    background: #EAF2FD;
     display: flex;
     flex-direction: column;
     height: 500px;
@@ -13,6 +14,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0 0 2rem;
+    width: 1136px;
 }
 
 .footer__name {
@@ -23,8 +26,13 @@
 }
 
 .footer__social {
+    align-items: center;
+    background: #ffffff;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin: 0 0 2rem;
+    width: 100%;
 }
 
 .footer__social a {
@@ -40,3 +48,4 @@
     color: var(--title-text);
     transform: scale(1.1);
 }
+
