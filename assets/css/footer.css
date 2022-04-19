@@ -5,7 +5,8 @@
     background: #EAF2FD;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 470px;
+    margin: 4rem;
     width: 100%;
 }
 
@@ -13,9 +14,26 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    height: 240px;
+    justify-content: space-between;
     margin: 0 0 2rem;
     width: 1136px;
+}
+
+.footer__logo {
+    height: 50px;
+    width: 176px;
+}
+
+.footer__menu {
+    height: 240px;
+    width: 176px;
+}
+
+.footer__form {
+    background: #ffffff;
+    height: 240px;
+    width: 560px;
 }
 
 .footer__name {
