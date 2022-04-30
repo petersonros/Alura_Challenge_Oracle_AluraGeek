@@ -20,6 +20,10 @@
     width: 1136px;
 }
 
+.footer__menu___list {
+    text-decoration: none;
+}
+
 .footer__logo {
     height: 50px;
     width: 176px;
@@ -32,7 +36,9 @@
 
 .footer__form {
     background: #ffffff;
-    height: 240px;
+    display: flex;
+    flex-direction: column;
+    
     width: 560px;
 }
 
